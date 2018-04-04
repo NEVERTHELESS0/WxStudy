@@ -1,0 +1,7 @@
+/* pages/express/express.wxss */
+input{
+  border: 2px solid green;
+  width: 90%;
+  margin: 5%;
+  padding: 5px;
+}

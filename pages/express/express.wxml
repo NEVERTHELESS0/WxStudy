@@ -1,0 +1,6 @@
+<view class='container'>
+
+  <input placeholder="请输入快递单号" type='number' />
+
+  <button type="primary" bindtap='expClick' > 查询 </button>
+</view>

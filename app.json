@@ -1,0 +1,25 @@
+{
+  "pages":[
+    "pages/title/title",
+    "pages/firstPage/first",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/express/express",
+    "pages/wxDrawer/index",
+    "pages/scrollableTabView/index",
+    "pages/getStudentInfo/index",
+    "pages/core/schedule/index",
+    "pages/core/bookRetrieval/index",
+    "pages/core/calendar/index",
+    "pages/core/coming/index",
+    "pages/core/otherQueries/index",
+    "pages/core/score/index",
+    "pages/core/card/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#118fff",
+    "navigationBarTitleText": "学习之路",
+    "navigationBarTextStyle":"black"
+  }
+}

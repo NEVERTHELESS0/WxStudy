@@ -1,0 +1,21 @@
+<!-- 相当于把文件中的全部内容复制过来 -->
+<include src = "../templates/header"/>
+李洋创建的页面
+<button type="default" > default </button>
+<button type="primary" bindtap="btnClick">{{btnText}} </button>
+<button type="primary" bindtap='butClick1' > 查询 </button>
+ <!-- <text>{{text}}</text>  -->
+ <!-- 标签 -->
+
+<view wx:if="{{show}}" >{{text}} 1 </view>
+<!-- <view wx:else >{{text}} 2 </view> -->
+
+<view wx:for="{{news}}">
+
+{{index}} - {{item}}
+
+</view>
+
+
+<import src="../templates/footer" />
+<template is="footer1" />

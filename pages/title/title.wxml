@@ -1,0 +1,17 @@
+
+<button type="default" bindtap='Click1' > FirstPage </button>
+<button type="primary" bindtap='Click2' > Logs </button>
+<button type="warn" bindtap='Click3' > Index </button>
+<button type="default" bindtap='Click4' > 快递查询 </button>
+<button type="primary" bindtap='Click5' > 测试 </button>
+<button type="warn" bindtap='Click6'> wxDrawer </button>
+<button type="default" bindtap='Click7'> scrollableTabView </button>
+<button type="primary" bindtap='Click8'> 获取学生信息 </button>
+<button type="warn"> warn </button>
+<button type="default" > default </button>
+<button type="primary" > primary </button>
+<button type="warn"> warn </button>
+<button type="default" > default </button>
+<button type="primary" > primary </button>
+<button type="warn"> warn </button>
+
