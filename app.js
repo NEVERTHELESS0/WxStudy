@@ -1,7 +1,8 @@
 //app.js
-var config = {
+var appconfig = {
   onLaunch: function () {
     // 展示本地存储能力
+    console.log('onLaunch')
     var logs = wx.getStorageSync('logs') || []
     logs.unshift(Date.now())
     wx.setStorageSync('logs', logs)
@@ -33,26 +34,17 @@ var config = {
       }
     })
   },
-
-  getExpressInfo: function(nu, cb){
-    wx.request({
-      url: 'https://atecut.cn/api/public/',
-      data: {
-        service: 'App.Card.GetCardBalance',
-        studentId: '2017'
-      },
-      method: 'POST',
-      
-      success: function (res) {
-       // console.log(res.data)
-       cb(res.data)
-      }
-    })
-    
+  onShow(){
+    console.log('onShow')
+  }, 
+  onHide(){
+    console.log('onHide')
   },
-  
+  onError(){
+    console.log('onError')
+  },
   globalData: {
     userInfo: null
   }
 }
-App(config)
+App(appconfig)
